@@ -68,8 +68,8 @@ O Vigia é um aplicativo mobile para envio de denúncias com geolocalização no
 
 *Wictor Mannuel Domingos de Melo*  
 📧 E-mail: [wictormannuel@gmail.com](mailto:wictormannuel@gmail.com)
-🖋 Behance: [behance.net/wictormeloo](https://www.behance.net/wictormeloo)
 🌐 GitHub: [github.com/Wictor0](https://github.com/Wictor0)
+🖋 Behance: [behance.net/wictormeloo](https://www.behance.net/wictormeloo)
 
 *Luís Vinicius Lauriano de França*  
 📧 E-mail: [luislauriano@outlook.com.br](mailto:luislauriano@outlook.com.br)  
