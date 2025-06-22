@@ -1,0 +1,92 @@
+/* Contêiner do cabeçalho completo */
+.header {
+  width: 100vw; /* Ocupa toda a largura visível da janela */
+  background: linear-gradient(to bottom, #111, #444);
+  padding: 1.5rem 2rem;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: -2rem; /* Garante que fique colado no topo */
+
+  /* Garante que fique colado no topo e sem limites de contêiner pai */
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+/* Logo à esquerda */
+.logo-header img {
+  width: 75px; /* Ajuste o tamanho da logo conforme necessário */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1.5rem;
+}
+
+
+/* Título à esquerda */
+.header-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.header-title span.logo {
+  color: #f1b500;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.header-title h1 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #f1b500;
+  width: 50vw; /* Limita a largura do título */
+}
+
+.header-title p {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+/* Botões de abas à direita */
+.top-tabs {
+  display: flex;
+  gap: 1rem;
+}
+
+.tab-button1 {
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  background-color: #f1b500;
+  color: black;
+  transition: 0.2s; /* Esta linha fará a transição de cor suave */
+}
+
+/* Efeito ao passar o mouse */
+.tab-button1:hover {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tab-button2 {
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  background-color: #f1b500;
+  color: black;
+  transition: 0.2s; /* Esta linha fará a transição de cor suave */
+}
+
+/* Efeito ao passar o mouse */
+.tab-button2:hover {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
